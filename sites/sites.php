@@ -53,3 +53,4 @@
  * @see conf_path()
  * @see http://drupal.org/documentation/install/multi-site
  */
+$sites['drupal.blueridgeartist.com'] = 'blueridgeartist.com';
