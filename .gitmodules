@@ -1,0 +1,6 @@
+[submodule "sites/all/libraries/backbone"]
+	path = sites/all/libraries/backbone
+	url = https://github.com/jashkenas/backbone.git
+[submodule "sites/all/libraries/underscore"]
+	path = sites/all/libraries/underscore
+	url = https://github.com/jashkenas/underscore.git
