@@ -177,6 +177,9 @@
       list-style-image: none;
     }
   }
+  width: 300px;
+  right: 310px;
+  top: 60px;
 }
 
 /**
@@ -861,4 +864,10 @@ tr.selected td {
   margin: 0 0 0 10px;
   top: -30px;
   width: 570px;
+}
+
+body.page-node-1 {
+  #main {
+    padding-top: 0;
+  }
 }
