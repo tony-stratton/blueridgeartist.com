@@ -843,6 +843,22 @@ tr.selected td {
   }
 }
 
-article.node-1 .field-name-body p {
-  font: italic 20px Georgia,serif;
+#home-left {
+  .field-name-body p {
+    font: italic 20px Georgia,serif;
+  }
+  position: relative;
+  float: left;
+  margin: 0 0 15px;
+  top: 10px;
+  width: 400px;
+}
+
+#home-right {
+  position: relative;
+  float: left;
+  height: 330px;
+  margin: 0 0 0 10px;
+  top: -30px;
+  width: 570px;
 }

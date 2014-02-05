@@ -1734,8 +1734,26 @@ tr.selected td {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003846}}
-article.node-1 .field-name-body p {
+#home-left {
+  position: relative;
+  float: left;
+  margin: 0 0 15px;
+  top: 10px;
+  width: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003847}}
+#home-left .field-name-body p {
   font: italic 20px Georgia,serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003857}}
+#home-right {
+  position: relative;
+  float: left;
+  height: 330px;
+  margin: 0 0 0 10px;
+  top: -30px;
+  width: 570px;
 }
 
 /**
