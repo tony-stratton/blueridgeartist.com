@@ -862,7 +862,7 @@ tr.selected td {
   float: left;
   height: 330px;
   margin: 0 0 0 10px;
-  top: -30px;
+  top: -40px;
   width: 570px;
 }
 
@@ -870,4 +870,12 @@ body.page-node-1 {
   #main {
     padding-top: 0;
   }
+  .page__title {
+    position: relative;
+    top: 15px;
+  }
+}
+
+.field-collection-container {
+  border-bottom: none;
 }
