@@ -870,10 +870,16 @@ body.page-node-1 {
   #main {
     padding-top: 0;
   }
-  .page__title {
-    position: relative;
-    top: 15px;
-  }
+}
+
+.page__title {
+  position: relative;
+  top: 15px;
+  font-family: 'P22 Cezanne Regular';
+  color: #681D0B;
+  font-size: 4em;
+  font-weight: normal;
+  text-shadow: 0 0 4px #525A6A;
 }
 
 .field-collection-container {

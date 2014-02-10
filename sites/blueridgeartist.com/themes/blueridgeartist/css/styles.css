@@ -1763,13 +1763,19 @@ tr.selected td {
 body.page-node-1 #main {
   padding-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003873}}
-body.page-node-1 .page__title {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003875}}
+.page__title {
   position: relative;
   top: 15px;
+  font-family: 'P22 Cezanne Regular';
+  color: #681D0B;
+  font-size: 4em;
+  font-weight: normal;
+  text-shadow: 0 0 4px #525A6A;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003885}}
 .field-collection-container {
   border-bottom: none;
 }
