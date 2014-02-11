@@ -172,14 +172,23 @@
     li {
       /* A simple method to get navigation links to appear in one line. */
       float: left;
-      padding: 0 10px 0 0;
+      padding: 0 10px 0 45px;
       list-style-type: none;
       list-style-image: none;
+      font-family: 'ITC Rennie Mackintosh'; font-weight: lighter;
+      a {
+        color: #E0CEB8;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.4em;
+        text-shadow: -10px 0 4px #000, 10px -5px 4px #000, 0 -8px 4px #000, 0 -8px 4px #000;
+      }
     }
   }
-  width: 300px;
-  right: 310px;
-  top: 60px;
+  width: 600px;
+  top: 45px;
+  float: right;
+  position: relative;
 }
 
 /**
