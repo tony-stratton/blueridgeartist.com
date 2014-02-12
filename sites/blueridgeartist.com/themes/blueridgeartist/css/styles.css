@@ -1024,7 +1024,7 @@ body {
   /* Sometimes you want to prevent overlapping with main div. */
   /* overflow: hidden; */
   /* Main menu and secondary menu links and menu block links. */
-  width: 600px;
+  width: 650px;
   top: 45px;
   float: right;
   position: relative;
@@ -1049,7 +1049,7 @@ body {
   list-style-type: none;
   list-style-image: none;
   font-family: 'ITC Rennie Mackintosh';
-  font-weight: lighter;
+  font-weight: bold;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003179}}
 #navigation .links li a,
