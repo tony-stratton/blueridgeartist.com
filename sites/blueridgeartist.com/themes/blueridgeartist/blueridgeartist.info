@@ -93,6 +93,8 @@ regions[content]        = Content
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
+regions[footer_top]     = Footer Top
+regions[footer_address] = Footer Address Bar
 regions[bottom]         = Page bottom
 
 ; The page_top and page_bottom regions are hidden, which means they will not

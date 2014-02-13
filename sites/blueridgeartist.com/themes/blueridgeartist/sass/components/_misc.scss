@@ -225,9 +225,8 @@ div.copyleft {
   padding: 0 0 0 65px;
   width: 315px;
   font: 10px Verdana,sans-serif;
-  color: #5B5647;
+  color: $footer-text;
   height: 30px;
-  top: 171px;
   h2.block__title {
     display: none;
   }
@@ -893,4 +892,47 @@ body.page-node-1 {
 
 .field-collection-container {
   border-bottom: none;
+}
+
+#address-bar {
+  font: 10px Verdana,sans-serif;
+  color: $footer-text;
+  border-bottom: 1px solid $border-color;
+  border-top: 1px solid $border-color;
+  height: 26px;
+  top: 135px;
+  width: 1000px;
+  .address-block p,
+  #block-system-navigation ul {
+    margin: 6px 0 0;
+    padding: 0;
+  }
+}
+
+#block-system-navigation {
+  float: right;
+  width: auto;
+  li {
+    list-style: none outside none;
+    float: left;
+    display: inline;
+    padding: 0 6px;
+    border-right: 1px solid $border-color;
+    a {
+      text-decoration: none;
+      color: $footer-text;
+    }
+  }
+  li.last {
+    border-right: none;
+  }
+}
+
+.address-block {
+  float: left;
+  width: auto;
+}
+
+#footer-top {
+  height: 100px;
 }
