@@ -115,11 +115,13 @@
 </div>
 </div>
 <div id="page-wrap-bottom">
-  <div id="footer-top">
-    <?php print render($page['footer_top']); ?>
+  <div id="footer-wrap">
+    <div id="footer-top">
+      <?php print render($page['footer_top']); ?>
+    </div>
+    <div id="address-bar">
+      <?php print render($page['footer_address']); ?>
+    </div>
+    <?php print render($page['bottom']); ?>
   </div>
-  <div id="address-bar">
-    <?php print render($page['footer_address']); ?>
-  </div>
-  <?php print render($page['bottom']); ?>
 </div>

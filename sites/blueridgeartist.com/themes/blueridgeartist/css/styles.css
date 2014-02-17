@@ -591,34 +591,36 @@ table {
  * by setting a max-width.
  * @TS: Changed from 1200px to 1000px to match original.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000338}}
 #page,
 .region-bottom,
-#address-bar {
+#address-bar,
+#footer-top,
+#footer-wrap {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000344}}
 body {
   background-image: url("../images/layout/body-background.jpg");
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000348}}
 #page-wrap-top {
   background: url("../images/layout/top-background.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000352}}
 #page-wrap-bottom {
   background: url("../images/layout/bottom-background.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   height: 277px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000363}}
 #header,
 #content,
 #navigation,
@@ -653,14 +655,14 @@ body {
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000377}}
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: 3em;
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\0000382}}
   #navigation {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
@@ -676,19 +678,19 @@ body {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003103}}
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003105}}
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003110}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -699,19 +701,19 @@ body {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003118}}
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003120}}
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003125}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -722,27 +724,27 @@ body {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003133}}
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003135}}
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003140}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003145}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -756,7 +758,7 @@ body {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003151}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -766,7 +768,7 @@ body {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003155}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -774,14 +776,14 @@ body {
     margin-right: -33.33333%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003160}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003164}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -796,19 +798,19 @@ body {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003181}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003183}}
   .sidebar-first #content {
     float: left;
     width: 80%;
     margin-left: 20%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003188}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -819,19 +821,19 @@ body {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003196}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003198}}
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003203}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -842,27 +844,27 @@ body {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003211}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003213}}
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003218}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/layouts\/_responsive\.scss}line{font-family:\00003223}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1799,8 +1801,8 @@ body.page-node-1 #main {
   border-bottom: 1px solid #5f5a4b;
   border-top: 1px solid #5f5a4b;
   height: 26px;
-  top: 135px;
   width: 1000px;
+  margin: 35px 0 -7px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003906}}
 #address-bar .address-block p,
@@ -1841,6 +1843,65 @@ body.page-node-1 #main {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003936}}
 #footer-top {
   height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003940}}
+#footer-wrap {
+  height: 215px;
+  top: 27px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003946}}
+#block-views-testimonials-block {
+  background: url("../images/layout/testimonial-bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 653px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003950}}
+#block-views-testimonials-block cite {
+  font: italic 12px Georgia,serif;
+  color: #3B382F;
+  display: block;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003956}}
+#block-views-testimonials-block blockquote {
+  font: 15px Georgia,serif;
+  color: #8B2901;
+  margin: 0 0 0 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003960}}
+#block-views-testimonials-block blockquote p {
+  padding-top: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003966}}
+div.stay-connected {
+  background: url("../images/layout/stay-connected-bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100px;
+  left: 694px;
+  width: 306px;
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003973}}
+div.stay-connected ul {
+  height: 52px;
+  left: 212px;
+  margin: 0;
+  padding: 0;
+  top: 47px;
+  width: 93px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tonystratton\/Sites\/drupal\.blueridgeartist\.com\/sites\/blueridgeartist\.com\/themes\/blueridgeartist\/sass\/components\/_misc\.scss}line{font-family:\00003981}}
+div.stay-connected ul li {
+  display: inline;
+  float: left;
+  list-style: none outside none;
+  margin: 0 2px 0 0;
+  padding: 0;
 }
 
 /**

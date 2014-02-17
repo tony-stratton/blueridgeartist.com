@@ -900,8 +900,8 @@ body.page-node-1 {
   border-bottom: 1px solid $border-color;
   border-top: 1px solid $border-color;
   height: 26px;
-  top: 135px;
   width: 1000px;
+  margin: 35px 0 -7px 0;
   .address-block p,
   #block-system-navigation ul {
     margin: 6px 0 0;
@@ -935,4 +935,55 @@ body.page-node-1 {
 
 #footer-top {
   height: 100px;
+}
+
+#footer-wrap {
+  height: 215px;
+  top: 27px;
+  position: relative;
+}
+
+#block-views-testimonials-block {
+  background: url("../images/layout/testimonial-bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 653px;
+  cite {
+    font: italic 12px Georgia,serif;
+    color: #3B382F;
+    display: block;
+    text-align: right;
+  }
+  blockquote {
+    font: 15px Georgia,serif;
+    color: #8B2901;
+    margin: 0 0 0 130px;
+    p {
+      padding-top: 16px;
+    }
+  }
+}
+
+div.stay-connected {
+  background: url("../images/layout/stay-connected-bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 100px;
+  left: 694px;
+  width: 306px;
+  position: absolute;
+  top: 0;
+  ul {
+    height: 52px;
+    left: 212px;
+    margin: 0;
+    padding: 0;
+    top: 47px;
+    width: 93px;
+    position: relative;
+    li {
+      display: inline;
+      float: left;
+      list-style: none outside none;
+      margin: 0 2px 0 0;
+      padding: 0;
+    }
+  }
 }
