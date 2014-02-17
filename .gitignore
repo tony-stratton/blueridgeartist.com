@@ -6,4 +6,5 @@ sites/*/files
 sites/*/private
 .idea
 sites/**/.sass-cache
+*.scssc
 .DS_Store
